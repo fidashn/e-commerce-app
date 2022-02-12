@@ -8,7 +8,9 @@
     "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "data:import": "node backend/seederScript"
+    "data:import": "node backend/seederScript",
+    "copy": "cp -r frontend/build backend/",
+    "heroku-postbuild": "npm install --prefix frontend && npm run build --prefix frontend && npm run copy"
   },
   "keywords": [],
   "author": "",
