@@ -1,6 +1,6 @@
 .navbar {
   width: 100%;
-  background-color: #a8d1a4;
+  background-color: #822659;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,13 +41,13 @@
 }
 
 .cart__link {
-  background: #7edf75;
+  background: #F8A1D1;
   padding: 10px;
   border-radius: 8px;
 }
 
 .cart__link:hover {
-  background: #dc7bbb;
+  background: #e36bae;
   color: #f4f4f4;
 }
 

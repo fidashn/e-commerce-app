@@ -1,56 +1,120 @@
 const products = [
   {
-    name: "PlayStation 5",
+    name: "Mindfulness - Writing and Creativity Journal",
     imageUrl:
-      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80",
+      "https://cdn.discordapp.com/attachments/922847003141091379/942297478005391410/mindfulness.jpg",
     description:
-      "PlayStation 5 (PS5) is a home video game console developed by Sony Interactive Entertainment. Announced in 2019 as the successor to the PlayStation 4, the PS5 was released on November 12, 2020 in Australia, Japan, New Zealand, North America, Singapore, and South Korea, and November 19, 2020 onwards in other major markets except China and India.",
-    price: 499,
+      "Created by artist and author, Toni Carmine Salerno, this Writing & Creativity journal is designed to be a sacred space for you to the plant seeds of your future creations - a place to collect your scattered thoughts and express your heart's deepest desires or your greatest worries. It can be a mirror that reflects your unique brilliance and the light and essence of your soul. This deluxe soft cover journal features 220 pages of cream-coloured premium quality wood-free paper, with a combination of lined and unlined pages to accommodate all facets of your self-expression - you may like to write, doodle, paint or draw. Over 140 of the pages feature an inspirational quote or message and the journal, also, includes 44 full colour artwork reproductions by Toni Carmine Salerno to inspire your creative expression. The artist has, also, written an introduction about creativity and the importance of self-expression, as well as some suggested affirmations to guide you on your way.",
+    price: 70,
     countInStock: 15,
   },
   {
-    name: "Iphone 12",
+    name: "Josephine Wall: Soul of a Unicorn (Foiled Journal)",
     imageUrl:
-      "https://images.unsplash.com/photo-1605787020600-b9ebd5df1d07?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1463&q=80",
+      "https://cdn.discordapp.com/attachments/922847003141091379/942296665832960000/unicorn.jpg",
     description:
-      "Welcome to a new era of iPhone. Beautifully bright 6.1-inch Super Retina XDR display.1 Ceramic Shield with 4x better drop performance.2 Incredible low-light photography with Night mode on all cameras. Cinema-grade Dolby Vision video recording, editing, and playback. Powerful A14 Bionic chip. And new MagSafe accessories for easy attach and faster wireless charging.3 Let the fun begin.",
-    price: 1099,
+      "A FLAME TREE NOTEBOOK. Beautiful and luxurious the journals combine high-quality production with magnificent art. Perfect as a gift, and an essential personal choice for writers, notetakers, travellers, students, poets and diarists. Features a wide range of well-known and modern artists, with new artworks published throughout the year.",
+    price: 65,
     countInStock: 10,
   },
   {
-    name: "Cannon EOS-1D",
+    name: "Aimee Stewart: A Stitch in Time Bookshelves (Foiled Journal)",
     imageUrl:
-      "https://images.unsplash.com/photo-1519183071298-a2962feb14f4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "https://cdn.discordapp.com/attachments/922847003141091379/942296383464026143/9781787550018.jpg",
     description:
-      "The EOS-1D X combines speed with image quality, to create the next generation camera for professionals. Full frame 18 megapixel sensor with Dual “DIGIC 5+” processors sets the standard, and up to 12 frames per second shooting takes it beyond.",
+      "A FLAME TREE NOTEBOOK. Beautiful and luxurious the journals combine high-quality production with magnificent art. Perfect as a gift, and an essential personal choice for writers, notetakers, travellers, students, poets and diarists. Features a wide range of well-known and modern artists, with new artworks published throughout the year.",
+    price: 68,
+    countInStock: 10,
+  },
+  {
+    name: "Beautiful Decay by IA London (Foiled Journal)",
+    imageUrl:
+      "https://cdn.discordapp.com/attachments/922847003141091379/942296034770550874/beautiful_decay.jpg",
+    description:
+      "Part of a series of exciting and luxurious Flame Tree Notebooks. Combining high-quality production with magnificent fine art, the covers are printed on foil in five colours, embossed, then foil stamped. And they're powerfully practical: a pocket at the back for receipts and scraps, two bookmarks and a solid magnetic side flap. These are perfect for personal use and make a dazzling gift. This example features Beautiful Decay by IA LONDON",
+    price: 70,
+    countInStock: 10,
+  },
+  {
+    name: "Nel Whatmore: Beautiful Reflections (Foiled Journal)",
+    imageUrl:
+      "https://cdn.discordapp.com/attachments/922847003141091379/942294718459543582/beautiful_reflections.jpg",
+    description:
+      `Part of a series of exciting and luxurious Flame Tree Notebooks. Combining high-quality production with magnificent fine art, the covers are printed on foil in five colours, embossed, then foil stamped. And they're powerfully practical: a pocket at the back for receipts and scraps, two bookmarks and a solid magnetic side flap. These are perfect for personal use and make a dazzling gift. This example features Nel Whatmore's Beautiful Reflections.
+      Nel Whatmore is a fine artist, well known for her floral paintings and abstracts. A contemporary colourist, her paintings are both expressionist and evocative. She seeks to constantly explore mediums and their ability to convey emotion. Her work is varied and encapsulates her interest in expressionist painting.`,
     price: 1300,
     countInStock: 5,
   },
   {
-    name: "Amazon Alexa",
+    name: "Claude Monet: Bridge over a Pond of Water Lilies (Foiled Journal)",
     imageUrl:
-      "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
+      "https://cdn.discordapp.com/attachments/922847003141091379/942294319518330880/bridge_over.jpg",
     description:
-      "It is capable of voice interaction, music playback, making to-do lists, setting alarms, streaming podcasts, playing audiobooks, and providing weather, traffic, sports, and other real-time information, such as news. Alexa can also control several smart devices using itself as a home automation system.",
+      `A FLAME TREE NOTEBOOK. Beautiful and luxurious the journals combine high-quality production with magnificent art. Perfect as a gift, and an essential personal choice for writers, notetakers, travellers, students, poets and diarists. Features a wide range of well-known and modern artists, with new artworks published throughout the year.
+      BEAUTIFULLY DESIGNED. The highly crafted covers are printed on foil paper, embossed then foil stamped, complemented by the luxury binding and rose red end-papers. The covers are created by our artists and designers who spend many hours transforming original artwork into gorgeous 3d masterpieces that feel good in the hand and look wonderful on a desk or table.`,
     price: 50,
     countInStock: 25,
   },
   {
-    name: "Audio Technica Headphones",
+    name: "Ashmolean Museum: Embroidered Hanging with Peacock (Foiled Journal)",
     imageUrl:
-      "https://images.unsplash.com/photo-1558756520-22cfe5d382ca?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "https://cdn.discordapp.com/attachments/922847003141091379/942295540962566154/ashmolean.jpg",
     description:
-      "Outfitted with 45mm large-aperture dynamic drivers and an over-ear, closed-back design, the ATH-M50x headphones deliver clarity, deep bass, and extended bandwidth (15 Hz to 28 kHz) while isolating you from outside sounds.",
-    price: 233,
+      `Part of a series of exciting and luxurious Flame Tree Notebooks. Combining high-quality production with magnificent fine art, the covers are printed on foil in five colours, embossed then foil stamped. And they're powerfully practical: a pocket at the back for receipts and scraps, two bookmarks and a solid magnetic side flap. These are perfect for personal use and make a dazzling gift. Ashmolean Museum: Chinese Embroidered Hanging with Peacock.
+
+      The peacock was emblematic not of glory but of compassion and care, and so it would appear to be in this intricate hanging. What we might expect to be its show-stealing splendour is almost upstaged by the pure-white peonies, lilies and roses all around. The eyes of its furled-up tail, though beautiful, blend into the background as though they were another flower.`,
+    price: 72,
     countInStock: 4,
   },
   {
-    name: "JBL FLIP 4",
+    name: "Monet: Waterlilies (Foiled Journal)",
     imageUrl:
-      "https://images.unsplash.com/photo-1564424224827-cd24b8915874?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80",
+      "https://cdn.discordapp.com/attachments/922847003141091379/942292486863335445/waterlilies.jpg",
     description:
-      "JBL Flip 4 is the next generation in the award-winning Flip series; it is a portable Bluetooth speaker that delivers surprisingly powerful stereo sound. This compact speaker is powered by a 3000mAh rechargeable Li-ion battery that offers up to 12 hours of continuous, high-quality audio playtime.",
-    price: 140,
+      "Part of a series of exciting and luxurious Flame Tree Notebooks. Combining high-quality production with magnificent fine art, the covers are printed on foil in five colours, embossed, then foil stamped. And they're powerfully practical: a pocket at the back for receipts and scraps, two bookmarks and a solid magnetic side flap. These are perfect for personal use and make a dazzling gift. This example features Monet's Waterlilies",
+    price: 72,
+    countInStock: 10,
+  },
+  {
+    name: "Vincent van Gogh: Starry Night (Foiled Journal)",
+    imageUrl:
+      "https://cdn.discordapp.com/attachments/922847003141091379/942291575357182022/starry_night.jpg",
+    description:
+      `Part of a series of exciting and luxurious Flame Tree Notebooks. Combining high-quality production with magnificent fine art, the covers are printed on foil in five colours, embossed, then foil stamped. And they're powerfully practical: a pocket at the back for receipts and scraps, two bookmarks and a solid magnetic side flap. These are perfect for personal use and make a dazzling gift. This example features Vincent van Gogh's 'Starry Night.
+      Regarded as one of Van Gogh's finest works The Starry Night was painted during his stay at the asylum of Saint-Paul-de-Mausole following a mental breakdown. Based on the view from his window at the asylum as well as his imagination this incredible painting is one of the most recognized in the world.`,
+    price: 70,
+    countInStock: 10,
+  },
+  {
+    name: "Van Gogh: Almond Blossom (Foiled Journal)",
+    imageUrl:
+      "https://cdn.discordapp.com/attachments/922847003141091379/942288133284823090/almond_blosoom.jpg",
+    description:
+      "Part of a series of exciting and luxurious Flame Tree Notebooks. Combining high-quality production with magnificent fine art, the covers are printed on foil in five colours, embossed then foil stamped. And they're powerfully practical: a pocket at the back for receipts and scraps, two bookmarks and a solid magnetic side flap. These are perfect for personal use and make a dazzling gift. This example is based on a detail from Almond Blossom, 1890 by Vincent van Gogh (1853-90), and printed on silver.",
+    price: 68,
+    countInStock: 10,
+  },
+  {
+    name: "Hiroshige: Sea at Satta (Foiled Journal)",
+    imageUrl:
+     "https://cdn.discordapp.com/attachments/922847003141091379/942293062271512586/sea_at_satta.jpg" ,
+    description:
+    `Part of a series of exciting and luxurious Flame Tree Notebooks. Combining high-quality production with magnificent fine art, the covers are printed on foil in five colours, embossed then foil stamped. And they're powerfully practical: a pocket at the back for receipts and scraps, two bookmarks and a solid magnetic side flap. These are perfect for personal use and make a dazzling gift. This example features Hiroshige's timeless Sea at Satta design.
+
+
+    Hiroshige was a prolific artist, creating over 5,000 works in his lifetime. Here he makes tribute to Hokusai's The Great Wave, off Kanagawa. The hectic activity of the waves is offset by Mount Fuji's tranquility, demonstrating Hiroshige's fascination with portraying the sensual moods of a landscape.`,
+    price: 70,
+    countInStock: 10,
+  },
+  {
+    name: "Gustave Courbet: The Calm Sea (Foiled Journal)",
+    imageUrl:
+      "https://cdn.discordapp.com/attachments/922847003141091379/942293591257141248/the_calm_sea.jpg",
+    description:
+      `Part of a series of exciting and luxurious Flame Tree Notebooks. Combining high-quality production with magnificent fine art, the covers are printed on foil in five colours, embossed, then foil stamped. And they're powerfully practical: a pocket at the back for receipts and scraps, two bookmarks and a solid magnetic side flap. These are perfect for personal use and make a dazzling gift. This example features Gustave Courbet: The Calm Sea.
+
+      Gustave Courbet painted this view of the sea, receded at low tide, during his visit to Etretat near Normandy, France, in the summer of 1869. The two small boats left on the shore add to the tranquility of the scene, which is in stark comparison to many of Courbet's other coastal landscapes, which depicted chaotic, crashing waves and dramatic skies.`,
+    price: 68,
     countInStock: 10,
   },
 ];
