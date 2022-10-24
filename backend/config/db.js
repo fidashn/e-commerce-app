@@ -1,19 +1,32 @@
 require("dotenv").config();
 const mongoose = require("mongoose");
 
-const connectDB = async () => {
+const connectDB = () => {
+//  console.log(process.env)
 
-  try {
-    await mongoose.connect(process.env.MONGO_URI, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
+  const CONNECTION_URI = "mongodb+srv://fida:WCoyluareYqaI71N@e-commerce.gpn4f1x.mongodb.net/?retryWrites=true&w=majority"
+  let asyncDone = false;
+  const innerFn = function()
+  {
+    mongoose.connect("mongodb://127.0.0.1:27017/test",(err, mongoConn) => {
+
+        if(err)
+        {
+          console.log("error:",err)
+        }
+        else
+        {
+          console.log({mongoConn})
+        }
+        asyncDone = true;
     });
 
-    console.log("MongoDB connection SUCCESS");
-  } catch (error) {
-    console.error("MongoDB connection FAIL");
-    process.exit(1);
+     
   }
+
+  innerFn();
+  require("deasync").loopWhile(() => !asyncDone);
+
 };
 
 module.exports = connectDB;
